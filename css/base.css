@@ -1,6 +1,5 @@
 h1 {
 	color: white;
-	font-family: Helvetica;
 }
 
 body {
@@ -33,7 +32,7 @@ a:hover{
 	/*color: white;*/
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 1000px) {
       .show-mobile {
         display: block;
       }
@@ -42,7 +41,7 @@ a:hover{
       }
     }
 
- @media only screen and (min-device-width: 481px) {
+@media (min-width: 1001px) {
       .show-mobile {
         display: none;
       }
@@ -618,8 +617,8 @@ li:hover {
 }
 
 /*@media only screen and (max-device-width: 480px) {*/
-/*@media (max-width: 700px) {*/
-@media only screen and (max-device-width: 480px) {
+/*@media (max-width: 1000px) {*/
+@media (max-width: 1000px) {
   .menu-button-container {
     display: flex;
   }

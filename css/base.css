@@ -67,6 +67,22 @@ a:hover{
 	background-color: #FDC100;
 }
 
+.preorderBanner {
+	color: white;
+	width: 100%;
+	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #19B000;
+}
+
+.mobilePreorderBanner {
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #19B000;
+}
+
 .mobileBannerContainter {
 	padding-left: 10%;
 	padding-right: 10%;
@@ -601,7 +617,7 @@ li:hover {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-device-width: 480px) {
   .menu-button-container {
     display: flex;
   }

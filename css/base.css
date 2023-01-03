@@ -617,6 +617,8 @@ li:hover {
   transform: rotate(-405deg);
 }
 
+/*@media only screen and (max-device-width: 480px) {*/
+/*@media (max-width: 700px) {*/
 @media only screen and (max-device-width: 480px) {
   .menu-button-container {
     display: flex;

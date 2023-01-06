@@ -50,6 +50,19 @@ a:hover{
       }
     }
 
+.animatedLogo {
+	border-radius: 500px;
+}
+
+.blogDate {
+	color: white;
+	text-align: left;
+	font-family: Helvetica;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin: auto;
+}
+
 .comingSoonBanner {
 	color: white;
 	width: 100%;

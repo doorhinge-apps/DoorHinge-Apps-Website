@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-	background: linear-gradient(#197FE0, #9C1FD8, #B93ECD);
+	background: linear-gradient(#197FE0, #A487FF, #A487FF);
 	background-attachment: fixed;
 	/*background-color: #fdc100;*/
 }
@@ -77,6 +77,23 @@ a:hover{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #FDC100;
+}
+
+
+.newReleaseBanner {
+	color: white;
+	width: 100%;
+	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: linear-gradient(to right, #FF3A99, #A487FF);
+}
+
+.mobileNewReleaseBanner {
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: linear-gradient(to right, #FF3A99, #A487FF);
 }
 
 .preorderBanner {
@@ -399,7 +416,8 @@ a: visited {
 	text-align: center;
 	padding: 16px;
 	font-family: Helvetica;
-	background-color: #fdc100;
+	/*background-color: #fdc100;*/
+    background: linear-gradient(to right, #FF3A99, #A487FF);
 	border-style: solid;
 	border-color: #444;
 	border-width: 4px;
@@ -469,7 +487,7 @@ a: visited {
 	text-align: center;
 	padding: 16px;
 	font-family: Helvetica;
-	background-color: #fdc100;
+	background: linear-gradient(to right, #FF3A99, #A487FF);
 	border-style: solid;
 	border-color: #444;
 	border-width: 4px;
@@ -558,8 +576,8 @@ li:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
-  background: linear-gradient(#197FE0, #9C1FD8, #B93ECD);
+  background-color: #A487FF;
+  background: linear-gradient(#197FE0, #A487FF);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 75px;
@@ -631,7 +649,7 @@ li:hover {
 
 /*@media only screen and (max-device-width: 480px) {*/
 /*@media (max-width: 1000px) {*/
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .menu-button-container {
     display: flex;
   }
@@ -665,7 +683,7 @@ li:hover {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #AE2FDB;
+    background-color: #A487FF;
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;

@@ -327,17 +327,58 @@ a: visited {
 	text-decoration: underline;
 }
 
+.otherFillButtons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  background-color: #507FFF;
+  border-radius: 50%;
+  box-shadow: -4px -4px 10px #759AFF, 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.otherFillButtons:hover {
+    background-color: transparent;
+    box-shadow: inset -4px -4px 20px #5984F9, inset 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.otherSocialIcon {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(95%) saturate(20%) hue-rotate(315deg) brightness(104%) contrast(104%);
+}
+
 .socialIcon {
 	height: 40px;
-	width: 50px;
+	width: 40px;
 	padding-left: 10px;
+    filter: invert(100%) sepia(95%) saturate(20%) hue-rotate(315deg) brightness(104%) contrast(104%);
+}
+
+.socialIcon:hover {
+	height: 40px;
+	width: 40px;
+	padding-left: 10px;
+    filter: invert(0%) sepia(9%) saturate(300%) hue-rotate(22deg) brightness(89%) contrast(101%);
 }
 
 .socialIconMenu {
 	height: 30px;
-	width: 35px;
+	width: 30px;
 	padding-left: 10px;
 	padding-bottom: 5px;
+    filter: invert(100%) sepia(95%) saturate(20%) hue-rotate(315deg) brightness(104%) contrast(104%);
+}
+
+.socialIconMenu:hover {
+	height: 30px;
+	width: 30px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+    filter: invert(0%) sepia(9%) saturate(300%) hue-rotate(22deg) brightness(89%) contrast(101%);
 }
 
 .doorhingeapps {

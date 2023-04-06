@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-	background: linear-gradient(#197FE0, #A487FF, #A487FF);
+	background: #BBA9FF;
 	background-attachment: fixed;
 	/*background-color: #fdc100;*/
 }
@@ -15,7 +15,7 @@ img {
 
 .titleImage {
 	border-radius: 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 br {
@@ -86,14 +86,20 @@ a:hover{
 	padding: 15px;
 	padding-left: 50px;
 	padding-right: 50px;
-	background: linear-gradient(to right, #FF3A99, #A487FF);
+	/*background: linear-gradient(to right, #FF3A99, #A487FF);*/
+    background-color: #B19DFF;
+    box-shadow: -4px -4px 10px #BBA9FF, 4px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    
 }
 
 .mobileNewReleaseBanner {
 	color: white;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background: linear-gradient(to right, #FF3A99, #A487FF);
+    background-color: #B19DFF;
+    box-shadow: -4px -4px 10px #BBA9FF, 4px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
 }
 
 .preorderBanner {
@@ -169,15 +175,24 @@ a:hover{
 	margin: auto;
 }
 
+.appsImageContainer {
+    padding-left: 5%;
+}
+
 .appsImage {
-	width: 45%;
-	padding-left: 5%;
+    border-radius: 50px;
+	/*width: 45%;*/
+	/*padding-left: 5%;*/
+    
+}
+.appsImageContainerMobile {
+    padding-left: 10%;
+	padding-right: 10%;
 }
 
 .mobileAppsImage {
-	padding-left: 10%;
-	padding-right: 10%;
 	margin: auto;
+    border-radius: 50px;
 }
 
 .peopleHStack {
@@ -247,11 +262,19 @@ a: visited {
  	/*border: 5px dashed #f7a239;*/
 }
 
+#mc-embedded-subscribe {
+    padding-left: 45px;
+    padding-right: 45px;
+    border-width: 0px;
+}
+
 .infoText {
 	width: 90%;
 	margin: auto;
 	border-radius: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #B19DFF;
+    box-shadow: -7px -7px 20px #BBA9FF, 4px 4px 10px rgba(0, 0, 0, 0.15);
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .compareSection {
@@ -309,6 +332,20 @@ a: visited {
 	padding-left: 20px;
 }
 
+.emailField {
+    padding: 10px;
+    width: 95%;
+    background-color: #BBA9FF;
+    border-width: 0px;
+    box-shadow: inset -4px -4px 20px #BBA9FF, inset 4px 4px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.emailField::placeholder {
+    color: #A489FF;
+    font-weight: bold;
+}
+
 .HStack {
 	display: inline-flex;
 	padding-bottom: 50px;
@@ -327,6 +364,62 @@ a: visited {
 	text-decoration: underline;
 }
 
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stack img {
+  margin-bottom: 10px; /* Optional: adds some space between the image and the button */
+}
+
+.theThing {
+    padding: 100px;
+    padding-top: 150px;
+    position: absolute;
+    display: flex;
+}
+
+.stacked-image {
+    max-width: 400px;
+}
+
+.stack {
+    position: relative;
+}
+
+.fillButtonsContact {
+	padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-family: Helvetica;
+	background-color: #B19DFF;
+	border-radius: 15px;
+    box-shadow: -4px -4px 10px #BBA9FF, 4px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.fillButtonsContact:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	font-family: Helvetica;
+	/*background-color: #fdc100;*/
+    background: #B19DFF;
+	border-radius: 15px;
+    box-shadow: inset -4px -4px 20px #BBA9FF, inset 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+
 .otherFillButtons {
   display: inline-flex;
   align-items: center;
@@ -335,20 +428,20 @@ a: visited {
   height: 60px;
   padding: 0;
   border: none;
-  background-color: #507FFF;
-  border-radius: 50%;
-  box-shadow: -4px -4px 10px #759AFF, 4px 4px 10px rgba(0, 0, 0, 0.15);
+  background-color: #BBA9FF;
+  border-radius: 12px;
+  box-shadow: -4px -4px 10px #BBA9FF, 4px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .otherFillButtons:hover {
     background-color: transparent;
-    box-shadow: inset -4px -4px 20px #5984F9, inset 4px 4px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: inset -4px -4px 20px #BBA9FF, inset 4px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 .otherSocialIcon {
     width: 30px;
     height: 30px;
-    filter: invert(100%) sepia(95%) saturate(20%) hue-rotate(315deg) brightness(104%) contrast(104%);
+    filter: invert(100%) sepia(95%) saturate(20%) hue-rotate(315deg) brightness(104%) 
 }
 
 .socialIcon {
@@ -446,8 +539,10 @@ a: visited {
 	color: white;
 	padding: 20px;
 	font-family: Helvetica;
-	background-color: #444;
+	background-color: #B19DFF;
 	border-radius: 15px;
+    box-shadow: -4px -4px 10px #BBA9FF, 4px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .fillButtons:hover{
@@ -455,14 +550,42 @@ a: visited {
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
-	padding: 16px;
+	padding: 20px;
 	font-family: Helvetica;
 	/*background-color: #fdc100;*/
-    background: linear-gradient(to right, #FF3A99, #A487FF);
-	border-style: solid;
-	border-color: #444;
-	border-width: 4px;
+    background: #B19DFF;
 	border-radius: 15px;
+    box-shadow: inset -4px -4px 20px #BBA9FF, inset 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.formButtons {
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-family: Helvetica;
+	background-color: #B19DFF;
+	border-radius: 15px;
+    box-shadow: -4px -4px 10px #BBA9FF, 4px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border-width: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.formButtons:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	font-family: Helvetica;
+	/*background-color: #fdc100;*/
+    background: #B19DFF;
+	border-radius: 15px;
+    box-shadow: inset -4px -4px 20px #BBA9FF, inset 4px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 .fillButtons2 {

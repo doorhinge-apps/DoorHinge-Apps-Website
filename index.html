@@ -23,6 +23,7 @@
 <meta name="description" content="Hello humans! We are a software development team from Mars. We have developed several apps including DoorHinge Parkour and No Athlete Alone.">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
 <!--
         <link rel="stylesheet" type="text/css" media="screen and (min-width:    0px) and (max-width: 400px)" href="css/400px.css" />
@@ -34,31 +35,7 @@
 
 <body style="background-color: #A487FF">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<section class="top-nav">
-  <div> <a href="https://doorhingeapps.com">
-    <div class="altHStack">
-      <div class="logo"> <img src="Images/logo animation.gif" alt="DoorHinge Apps Logo" class="animatedLogo"> </div>
-      <h1 class="navBarTitle"> DoorHinge Apps </h1>
-    </div>
-    </a> </div>
-  <input id="menu-toggle" type="checkbox" />
-  <label class="menu-button-container" for="menu-toggle">
-  <div class="menu-button"></div>
-  </label>
-  <ul class="menu">
-    <li> <a href="https://doorhingeapps.com" class="whiteButtonText"> Home </a> </li>
-    <li> <a href="https://doorhingeapps.com/blog" class="whiteButtonText"> Blog </a> </li>
-    <li> <a href="https://doorhingeparkour.com" class="whiteButtonText"> DoorHinge Parkour </a> </li>
-    <li> <a href="https://themaclibrary.com" class="whiteButtonText"> The Mac Library </a> </li>
-    <li> <a href="https://noathletealone.com" class="whiteButtonText"> No Athlete Alone </a> </li>
-    <li> <a href="contact.html" class="whiteButtonText"> Contact </a> </li>
-    <li>
-      <div class="altHStack">
-        <div> <a href="https://youtube.com/@doorhingeparkour"> <img src="socials/Youtube.svg" class="socialIconMenu"> </a> <a href="https://tiktok.com/@doorhingeparkour"> <img src="socials/Tiktok.svg" class="socialIconMenu"> </a> </div>
-      </div>
-    </li>
-  </ul>
-</section>
+<div id="header"></div>
 <a href="index.html">
 <div class="show-mobile"> <img src="Images/banners/mobile.png" alt="DoorHinge Apps" class="titleImage"> 
   <!--<img src="Mobile Animation.gif" alt="DoorHinge Apps" class="titleImage">--> 
@@ -409,20 +386,14 @@
                 --> 
   </div>
 </div>
-<br>
-<hr>
-<br>
-<div class="footer">
-  <div class="doorhingeapps"> <a href="index.html" class="whiteButtonText">
-    <h5> DoorHinge Apps </h5>
-    </a> </div>
-  <div class="altHStack">
-    <div> <a href="https://youtube.com/@doorhingeparkour"> <img src="socials/Youtube.svg" class="socialIcon"> </a> <a href="https://tiktok.com/@doorhingeparkour"> <img src="socials/Tiktok.svg" class="socialIcon"> </a> </div>
-  </div>
-  <div class="copyright">
-    <h5> ©2023 DoorHinge Apps </h5>
-  </div>
-  <br>
-</div>
+<div id="footer"></div>
+	<script>
+$(function() {
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html"); 
+});
+
+
+</script> 
 </body>
 </div>

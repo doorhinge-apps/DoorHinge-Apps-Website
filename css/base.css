@@ -12,7 +12,9 @@ img {
   width: 100%; /* takes the 100 % width of its container (.box div)*/
   height: 100%; /* takes the 100 % height of its container (.box div)*/
 }
-
+.animatedLogo {
+	border-radius: 500px;
+}
 .titleImage {
 	border-radius: 0px;
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/

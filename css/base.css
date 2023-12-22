@@ -542,7 +542,7 @@ a: visited {
 	padding: 20px;
 	font-family: Helvetica;
 	background-color: #B19DFF;
-	border-radius: 15px;
+	border-radius: 100px;
     box-shadow: -4px -4px 10px #BBA9FF, 4px 4px 10px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
@@ -556,7 +556,7 @@ a: visited {
 	font-family: Helvetica;
 	/*background-color: #fdc100;*/
     background: #B19DFF;
-	border-radius: 15px;
+	border-radius: 100px;
     box-shadow: inset -4px -4px 20px #BBA9FF, inset 4px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
